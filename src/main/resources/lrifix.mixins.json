@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "com.zhlon.lrifix.mixin",
+  "compatibilityLevel": "JAVA_17",
+
+  "mixins": [
+    "ItemMixin"
+  ],
+
+  "injectors": {
+    "defaultRequire": 1
+  },
+
+  "refmap": "lrifix.refmap.json",
+
+  "minVersion": "0.8"
+}

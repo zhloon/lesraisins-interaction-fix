@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="lrifix"
+version="1.0.0"
+displayName="LesRaisins Interaction Fix"
+authors="ChatGPT"
+description='''
+Fixes interaction conflicts caused by LesRaisins Tactical Equipements melee weapons.
+'''
+
+[[dependencies.lrifix]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.lrifix]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"
